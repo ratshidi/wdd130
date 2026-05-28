@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #000; /* black */
-    --secondary-color: #324658; /* blue */
+    --primary-color: #333; /* gray */
+    --secondary-color: #fff; /* white */
     --accent1-color: #333; /* dark gray */
     --accent2-color: #333; /* dark gray */
     --heading-font: #333; /* dark gray */
@@ -23,6 +23,10 @@ body {
     color: var(--accent1-color);
 }
 
+header, nav a{   
+    color: var(--secondary-color);
+}
+
 header, main, footer {
     width: 840px;
     margin: 0 auto;
@@ -38,7 +42,7 @@ nav, p, section, article {
     padding: 8px;
 }
 
-.social-media a {
+.socialmedia a {
     text-decoration: none;
 }
 
