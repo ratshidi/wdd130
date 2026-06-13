@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Paul Neo Ratshidi">
+    <meta name="description" content="Contact White Water Rafting Experts for inquiries. This website represents a fictional, white water rafting company.">
+    <title>Contact Us - White Water Rafting Experts</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+<header class="contact-header">
+    <img src="images/z-raftingbw.png" alt="White Water Rafting Logo">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="trips.html">Trips</a></li>
+            <li><a href="contact.html">Contact Us</a></li> 
+        </ul>
+    </nav>
+</header>
+
+<main class="contact-main">
+    <h1 class="contact-title">White Water Rafting Company</h1>
+    <section class="contact-info">
+        <ul class="contact-list">
+            <li>123 Main River Street</li> 
+            <li>Kolob, Carlifornia</li>
+            <li>+1 999 999 9999</li>
+            <li>info@whitewater.com</li>
+        </ul>
+    </section>    
+    <section class="contact-details">    
+        <iframe class="contact-map"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9500.54312571983!2d30.312336052453734!3d-30.670343967244627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1780849561649!5m2!1sen!2sza" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe> 
+
+        <section class="contact-form">
+            <form action="submit_form.php" method="post">
+            
+                <div class="form-details">
+                    <label for="fname">Name</label>
+                    <input type="text"id="fname"name="fname"placeholder="Full Name">
+                </div>
+                <div class="form-details">    
+                    <label for="email">Email</label>        
+                    <input type="email"id="email"name="email"placeholder="Email Address"> 
+                </div>
+                
+                <div class="message-radios">
+                    <div class="legend">
+                        <legend>Message Purpose</legend>
+                    </div> 
+
+                    <div class="radios">
+                        <div class="radio-item">
+                            <input type="radio"id="general-inquiry"name="purpose"value="general inquiry">
+                            <label for="general-inquiry">General Inquiry</label>
+                        </div>        
+                        <div class="radio-item">
+                            <input type="radio"id="reservation-questions"name="purpose"value="reservation questions">                
+                            <label for="reservation-questions">Reservation Questions</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio"id="Website-Suggestion"name="purpose"value="website suggestion">
+                            <label for="Website-Suggestion">Website Suggestion</label>    
+                        </div>
+                    </div>
+                </div>
+                        
+                <div class="message-area">
+                    <label for="message">Message</label>
+                    <textarea id="message"name="message"rows="4"placeholder="Type here"></textarea>
+                </div>
+
+                <div class="check-button">
+                    <div class="checkbox"> 
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
+                    </div>    
+                
+                    <button type="submit">Get in Touch!</button>
+                </div>
+            </form>
+        </section>
+    </section>
+        
+    <section class="employee">
+        <h2> We are Here to Serve You!</h2>
+        <div class="employee-gallery">
+            <figure>
+                <img src="images/profile_one.jpg" alt="Employee Image">
+                <figcaption>Employee Profile</figcaption>
+            </figure>
+            <figure>   
+                <img src="images/profile_two.jpg" alt="Employee Image">
+                <figcaption>Employee Profile</figcaption>
+            </figure>
+            <figure>    
+                <img src="images/profile_three.jpg" alt="Employee Image">
+                <figcaption>Employee Profile</figcaption>
+            </figure>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy;2026 ϰ Rafting ϰ Neo Ratshidi</p>
+    <nav class="socialmedia">
+        <a href="https://facebook.com">
+            <img src="images/facebook.svg" alt="Facebook Icon">
+        </a>
+        <a href="https://pinterest.com">
+            <img src="images/pinterest.svg" alt="Pinterest Icon">
+        </a>
+        <a href="https://instagram.com">
+            <img src="images/instagram.svg" alt="Instagram Icon">
+        </a>
+    </nav>
+</footer>
+</body>
+
+</html>

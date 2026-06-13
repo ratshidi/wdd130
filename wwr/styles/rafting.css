@@ -13,8 +13,6 @@ header {
     align-items: center;
     background-color: var(--primary-color);
     padding: 10px;
-    /* color: var(--accent2-color); */
-    
 }
 
 * {
@@ -141,7 +139,7 @@ footer {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -159,8 +157,7 @@ h1 {
     opacity: 0.7;
     background-color: var(--accent2-color);
     color: #fff;
-    width: 80%;
-    left: 10%;
+    margin: 16px 0;
 }
 
 .hero article img {
@@ -169,3 +166,86 @@ h1 {
     height: auto;   
 }
 
+/* Contact Page */
+
+.contact-title {
+    padding: 10px; 
+    text-align: center;
+    margin: 12px 0;
+    position: relative;
+    background-color: var(--primary-color);
+    color: var(--secondary-color); 
+}
+
+.contact-list {     
+    list-style: none;
+    text-align: center;
+}
+
+.contact-details {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.contact-map {
+    width: 100%;
+    height: 300px;
+}
+
+.form-details, 
+.message-radios {    
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: center; 
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.message-area, textarea{
+    margin-top: 10px;
+    min-height: 90px;
+    width: 100%;
+}
+
+.checkbox {
+    display: flex; 
+    align-items: center;
+    gap: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.contact-form button{
+    padding: 9px;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px
+}
+
+.employee {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.employee-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.employee-gallery figure {
+    text-align: center;
+    margin: 0;
+}
+
+.employee-gallery img {
+    width: 180px;
+    height: auto;
+}
