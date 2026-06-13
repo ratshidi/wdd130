@@ -202,8 +202,7 @@ footer {
 }
 
 .message-radios {    
-    display: grid;
-    grid-template-columns: 100px 1fr;
+    display: flex;
     align-items: center; 
     margin-bottom: 15px;
     width: 100%;
@@ -213,17 +212,15 @@ footer {
 
 .message-radios legend {
     font-size: 1rem;
-    color: var(--accent1-color);
-    grid-column: 1; 
-    float: left;       
+    color: var(--accent1-color); 
     width: 100px;      
 }
 
-.radios {
-    grid-column: 2; 
+.radios { 
     display: flex;
     flex-direction: column;
     gap: 8px; 
+    flex-grow: 1;
 }
 
 .radio-item {
