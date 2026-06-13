@@ -193,7 +193,14 @@ footer {
     border: none;
 }
 
-.form-details, 
+.form-details {    
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: center; 
+    margin-bottom: 15px;
+    width: 100%;
+}
+
 .message-radios {    
     display: grid;
     grid-template-columns: 100px 1fr;
@@ -201,6 +208,33 @@ footer {
     margin-bottom: 15px;
     width: 100%;
     border: none;
+    padding: 0;
+}
+
+.message-radios legend {
+    font-size: 1rem;
+    color: var(--accent1-color);
+    grid-column: 1; 
+    float: left;       
+    width: 100px;      
+}
+
+.radios {
+    grid-column: 2; 
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+}
+
+.radio-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.radio-item input[type="radio"],
+.radio-item label {
+    cursor: pointer;
 }
 
 .message-area, textarea{
