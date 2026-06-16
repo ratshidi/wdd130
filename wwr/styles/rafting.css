@@ -29,6 +29,7 @@
 .newsletter form {
     display: grid;
     gap: 10px;
+    justify-content: center;
 }
 
 .newsletter input {
@@ -49,9 +50,10 @@
 }
 
 .info {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+    display: grid;
+    grid-template-columns: 80px 300px;
+    align-items: center;
+    gap: 10px;
 }
 
 .call-action {
@@ -333,6 +335,11 @@ footer {
     align-items: center; 
     margin-bottom: 15px;
     width: 100%;
+}
+
+.form-details input, textarea {
+    width: 300px;
+    padding: 9px;
 }
 
 .message-radios {    
